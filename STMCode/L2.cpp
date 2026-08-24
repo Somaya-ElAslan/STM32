@@ -27,5 +27,6 @@ else {
   digitalWrite(IN1,LOW);
   digitalWrite(IN2,LOW);
 }
+//set speed
 analogWrite(EN,abs(speed_in_pwm));
 }
