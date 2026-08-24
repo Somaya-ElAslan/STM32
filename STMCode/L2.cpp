@@ -23,10 +23,10 @@ digitalWrite(IN2,HIGH);
 }
 else {
   //stop the motor
-  analogWrite(EN,O);
+  analogWrite(ENA,0);
   digitalWrite(IN1,LOW);
   digitalWrite(IN2,LOW);
 }
 //set speed
-analogWrite(EN,abs(speed_in_pwm));
+analogWrite(ENA,abs(speed_in_pwm));
 }
